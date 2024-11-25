@@ -22,6 +22,10 @@
     text-decoration: none;
 }
 
+a {
+    color: white;
+}
+
 a:hover {
     text-decoration: underline;
 }
@@ -361,8 +365,7 @@ footer {
             color:  rgb(118, 131, 220);
         }
 
-
-        .footer-list li {
+        .footer-list li  {
             margin-bottom: 5px;
         }
 
