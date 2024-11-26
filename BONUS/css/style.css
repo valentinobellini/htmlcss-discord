@@ -1,4 +1,4 @@
-/* reset 0 */
+/* general rules */
 * {
     margin: 0;
     padding: 0;
@@ -42,8 +42,12 @@ header {
 }
 
     #logo {
-        height: 50px;
-        width: 10%;
+        height: 40px;
+        width: 150px;
+        background-image: url(../img/logo.svg);
+        background-size: cover;
+        line-height: 100%;
+        text-align: center;
     }
 
     nav {
@@ -382,8 +386,12 @@ footer {
 }
 
 #footer-logo {
-    height: 50px;
+    height: 40px;
     width: 150px;
+    background-image: url(../img/logo.svg);
+    background-size: cover;
+    line-height: 100%;
+    text-align: center;
 }
 
 #footer-login {
